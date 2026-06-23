@@ -7,8 +7,6 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
-    <!-- Cabeçalho Principal -->
     <header class="main-header">
         <div class="header-container">
             <h1>Conexão<span>Segura</span></h1>
@@ -16,67 +14,29 @@
         </div>
     </header>
 
-    <!-- Conteúdo Principal Semântico -->
     <main class="content-wrapper">
-        
-        <!-- Seção de Introdução e Conceitos -->
         <section class="hero-section">
             <h2>O Impacto das Deepfakes na Sociedade</h2>
-            <p>A Inteligência Artificial avançou rapidamente. Hoje, vídeos e áudios falsos parecem reais. Compreender as <strong>deepfakes</strong> e combater a desinformação automatizada é um dever fundamental da cidadania digital moderna.</p>
+            <p>Compreender as <strong>deepfakes</strong> e combater a desinformação automatizada é um dever fundamental da cidadania digital moderna.</p>
         </section>
 
-        <!-- Seção Interativa: Quiz Anti-Desinformação -->
         <section class="quiz-section">
             <h2>Desafio Prático: Você sabe identificar um Deepfake?</h2>
-            <p>Analise a afirmação abaixo e teste seus conhecimentos de segurança digital.</p>
-            
             <div class="quiz-card">
-                <p class="quiz-question">"Movimentos oculares não naturais, falta de piscadas e falhas no alinhamento da iluminação do rosto são sinais comuns para detectar um vídeo manipulado por IA."</p>
-                
-                <!-- Formulário com tags semânticas obrigatórias -->
+                <p class="quiz-question">"Movimentos oculares não naturais, falta de piscadas e falhas no alinhamento da iluminação do rosto são sinais comuns..."</p>
                 <form id="quiz-form">
                     <div class="options-group">
-                        <label class="radio-label">
-                            <input type="radio" name="quiz-answer" value="verdadeiro" required>
-                            <span>Verdadeiro. São anomalias geradas por algoritmos.</span>
-                        </label>
-                        
-                        <label class="radio-label">
-                            <input type="radio" name="quiz-answer" value="falso">
-                            <span>Falso. As IAs já corrigiram todos esses erros visuais.</span>
-                        </label>
+                        <label class="radio-label"><input type="radio" name="quiz-answer" value="verdadeiro" required><span>Verdadeiro.</span></label>
+                        <label class="radio-label"><input type="radio" name="quiz-answer" value="falso"><span>Falso.</span></label>
                     </div>
-                    
                     <button type="submit" class="submit-btn">Enviar Resposta</button>
                 </form>
-                
-                <!-- Container de feedback dinâmico via JS -->
                 <div id="quiz-feedback" class="feedback-box hidden"></div>
-            </div>
-        </section>
-
-        <!-- Seção Educativa: Dicas de Proteção -->
-        <section class="tips-section">
-            <h2>Como Evitar a Disseminação de Mentiras Automatizadas</h2>
-            <div class="grid-tips">
-                <div class="tip-card">
-                    <h3>1. Verifique a Fonte</h3>
-                    <p>Busque agências de checagem confiáveis antes de compartilhar.</p>
-                </div>
-                <div class="tip-card">
-                    <h3>2. Analise o Contexto</h3>
-                    <p>Notícias alarmantes ou com tom emocional forte exigem atenção dupla.</p>
-                </div>
             </div>
         </section>
     </main>
 
-    <!-- Rodapé Semântico com Créditos -->
-    <footer class="main-footer">
-        <p>&copy; 2026 Conexão Segura. Conteúdo 100% autoral desenvolvido para fins educativos.</p>
-        <p>Projeto integrado de Educação Digital, Programação e IA.</p>
-    </footer>
-
+    <footer><p>&copy; 2026 Conexão Segura. Projeto de Educação Digital.</p></footer>
     <script src="js/script.js"></script>
 </body>
 </html>
