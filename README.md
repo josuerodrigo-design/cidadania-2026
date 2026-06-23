@@ -1,1 +1,6 @@
-# cidadania-2026
+├── index.html
+├── README.md
+├── css/
+│   └── style.css
+└── js/
+    └── script.js
